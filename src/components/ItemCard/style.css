@@ -1,0 +1,72 @@
+.empty {
+  min-width: 300px;
+  flex: 1;
+}
+.cardContainer {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 6px 10px;
+  overflow: hidden;
+}
+.imageContainer {
+  background-color: #dbdbdb;
+}
+.image {
+  width: 100%;
+}
+.price {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #e63946;
+}
+.month {
+  font-size: smaller;
+  color: gray;
+  margin-left: 3px;
+}
+.popular {
+  background-color: #e63946;
+  padding: 4px 12px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+}
+.name {
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+.address {
+  color: gray;
+  font-size: smaller;
+  margin-top: 10px;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #dbdbdb;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.infoIcon {
+  color: #e63946;
+}
+.infoText {
+  font-size: smaller;
+  color: gray;
+  margin-top: 0.5px;
+}
